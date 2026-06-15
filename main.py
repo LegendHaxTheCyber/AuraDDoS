@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # From NV with love
-# lulz v1.1
+# auraddos v1.1
 # All for FREE
 from os import system, name
 #import httpx
@@ -22,7 +22,7 @@ def countdown(t):
         if (until - datetime.datetime.now()).total_seconds() > 0:
             stdout.flush()
             stdout.write("\r "f"""
-╔══════════[Attack time]══════════╗     
+╔══════════[AURADDOS ON TOP]══════════╗     
     Time: {str((until - datetime.datetime.now()).total_seconds())}                         
 ╚═════════════════════════════════╝""")
         else:
@@ -1115,11 +1115,11 @@ def tools():
 ##############################################################################################
 def title():
     stdout.write("                                                                                          \n")
-    stdout.write("                   "+Fore.LIGHTWHITE_EX  +"   █     █   █ █     █████              \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"   █     █   █ █        █                 \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"   █     █   █ █       █             \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"   █     █   █ █      █                  \n")
-    stdout.write("                   "+Fore.LIGHTGREEN_EX  +"   █████ █████ █████ █████              \n")
+    stdout.write("                   "+Fore.LIGHTWHITE_EX +"   █████ █   █ █████  █████  █████ ██████  █████  █████\n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX +"   █   █ █   █ █   █  █   █  █   █ █    █ █   █ █     \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX +"   █████ █   █ █████  █████  ████  █    █ █   █ █████ \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX +"   █   █ █   █ █   █  █   █  █  █  █    █ █   █     █ \n")
+    stdout.write("                   "+Fore.LIGHTGREEN_EX +"   █   █ █████ █   █  █   █  █   █ ██████  █████ █████\n")
     stdout.write("                   "+Fore.LIGHTGREEN_EX  +"══════════════════════════════                \n")
     stdout.write("             "+Fore.LIGHTGREEN_EX            +"        ══╦═════════════════════════════════╦══\n")
     stdout.write("             "+Fore.LIGHTGREEN_EX+"╔═════════╩═════════════════════════════════╩═════════╗\n")
