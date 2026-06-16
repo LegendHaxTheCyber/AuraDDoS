@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-# From NV with love
-# lulz v1.1
+# ddos layer7
+# AuraDDoS v1.1
 # All for FREE
 from os import system, name
 #import httpx
